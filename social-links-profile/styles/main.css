@@ -1,0 +1,85 @@
+* , *::before , *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+  font-family: 'MyFont';
+  src: url('../assets/fonts/static/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../assets/fonts/static/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+
+
+
+#home{
+    background-color: rgb(37, 36, 36);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Myfont";
+    font-weight: 400;
+}
+
+
+.home-content{
+    background-color: rgb(49, 51, 51);
+    border-radius: 10px;
+    padding: 30px 0px ;
+}
+.home-content .content-img img{
+    width: 65px;
+    border-radius: 50%;
+}
+.home-content .content-caption{
+    width: 80%;
+    margin: 0 auto;
+}
+.home-content .content-list li {
+    background-color: rgb(84, 83, 83);
+    margin:15px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.home-content .content-list li:hover{
+    background-color: yellow;
+}
+.home-content .content-list li:hover a{
+    color: black;
+}
+.home-content .content-caption h3{
+    margin-top: 15px;
+}
+.home-content .content-caption span{
+    margin-top: 5px;
+    color: yellow;
+    font-size: 11px;
+}
+.home-content .content-caption p {
+    margin-top: 1.25rem;
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: inline-block;
+}

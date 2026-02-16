@@ -1,4 +1,4 @@
 # Frontend-Mentor-Challange-2
-Qr code component website
-## live demo of an Qr code component website built with Html & Css
+Social links profile
+## live demo of a Social links profile website built with Html & Css
 https://social-links-profiles1.netlify.app/
